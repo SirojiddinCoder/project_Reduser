@@ -1,11 +1,15 @@
 import React from "react";
-import Farzand from './Farzand'
+import StudentClass from './StudentClass'
 class App extends React.Component{
     render(){
         return(
             <div>
-                <Farzand />
-                Oyisi Components
+               <StudentClass name="Sirojiddin" id={1}/>
+               <StudentClass />
+               <StudentClass />
+               <StudentClass />
+               <StudentClass />
+               <StudentClass />
             </div>
         )
     }
