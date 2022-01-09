@@ -6,8 +6,9 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <h1>React Js Next Js</h1>
+    <App />
+
+
   </React.StrictMode>,
   document.getElementById('root')
 );
