@@ -19,17 +19,8 @@ class App extends React.Component{
     render(){
         return(
             <div>
-            {
-            students.map((value,index)=>{
-                return(
-                    <StudentClass
-                    id={value.id}
-                    name={value.name}
-                    status={value.status}
-                    />
-                )
-            })
-            }
+                 <StudentClass data={students} />
+
 
             </div>
         )
